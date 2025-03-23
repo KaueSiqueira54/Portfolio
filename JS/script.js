@@ -1,4 +1,3 @@
-
 const links = document.querySelectorAll(".link");
 
 links.forEach((link) => {
@@ -7,3 +6,11 @@ links.forEach((link) => {
     this.classList.add("active");
   });
 });
+
+let menuIcon = document.querySelector("#menu-icon");
+let navbar = document.querySelector(".navbar");
+
+menuIcon.onclick = () => {
+  menuIcon.classList.toggle("bx-x");
+  navbar.classList.toggle("active");
+};
