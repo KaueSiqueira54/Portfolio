@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,6 +13,14 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="Images/favicon2.png" type="image/x-icon" />
+    <!-- Bootstrap-icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
   </head>
   <body>
     <header class="header">
@@ -23,31 +31,44 @@
       <nav class="navbar">
         <a href="#home" class="link">Home</a>
         <a href="#education" class="link">Educação</a>
-        <a href="#services" class="link">Serviços</a>
-        <a href="#contact" class="link">Contato</a>
+        <a href="#certificados" class="link">Certificados</a>
+        <a href="#contato" class="link">Contato</a>
+        <a href="javascript:void(0)"
+          ><i id="toggleTheme" class="bi bi-sun"></i
+        ></a>
       </nav>
     </header>
 
     <section class="home" id="home">
       <div class="home-content">
-        <h1>Hi, It's <span>Kauê</span></h1>
-        <h3 class="text-animation">I'am a <span></span></h3>
+        <h1>Olá, sou o <span>Kauê</span></h1>
+        <h3 class="text-animation">Eu sou <span></span></h3>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam
-          doloribus totam enim velit omnis deleniti adipisci corrupti eligendi
-          mollitia dolore officiis vitae debitis pariatur, eos distinctio
-          voluptate, ex laboriosam placeat.
+          Apaixonado por conhecimento e tecnologia, meu primeiro "Hello world"
+          foi no Python e desde então busco o conhecimento nesse mundo tão vasto
+          da tecnologia. Estou apenas começando minha jornada, onde pretendo me
+          formar em Design de Mídias Digitais e futuramente em Desenvolvimento
+          de Sistemas, buscando sempre conhecer mais essa área em constante
+          evolução.
         </p>
 
         <div class="social-icons">
-          <a href="#"><i class="bx bxl-linkedin"></i></a>
-          <a href="#"><i class="bx bxl-github"></i></a>
-          <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="https://www.linkedin.com/in/kauesiqueiradev/" target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/KaueSiqueira54" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.instagram.com/siqueira_dev54/#" target="_blank"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
         </div>
 
         <div class="btn-group">
-          <a href="#" class="btn">Here</a>
-          <a href="#contact" class="btn">Contato</a>
+          <a href="#contato" class="btn">Contato</a>
+          <a href="sobre/Curriculo_Kaue-new.pdf" target="_blank" class="btn"
+            >Curriculo</a
+          >
         </div>
       </div>
 
@@ -56,71 +77,121 @@
       </div>
     </section>
 
+    <section class="skills" id="skills">
+      <div class="imagem-logo">
+        <img src="Images/siqueira.png" alt="" />
+      </div>
+
+      <h2>Conhecimento nas principais tecnologias do mercado</h2>
+      <ul class="skills__list">
+        <li class="skills__item">
+          <img class="skills__logo" src="images/html2.png" alt="logo-html" />
+        </li>
+        <li class="skills__item">
+          <img class="skills__logo" src="Images/css2.png" alt="logo-css" />
+        </li>
+        <li class="skills__item">
+          <img class="skills__logo" src="images/js3.png" alt="logo-js" />
+        </li>
+        <li class="skills__item">
+          <img class="skills__logo" src="images/py2.png" alt="logo-python" />
+        </li>
+        <li class="skills__item">
+          <img class="skills__logo" src="images/java2.png" alt="logo-java" />
+        </li>
+      </ul>
+    </section>
+
     <section class="education" id="education">
       <h2 class="heading">Educação</h2>
 
       <div class="timeline-items">
-
         <!-- Primeiro item -->
         <div class="timeline-item">
           <div class="timeline-dot"></div>
-            <div class="timeline-date">2025</div>
-            <div class="timeline-content">
-              <h3>Escolar</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-                animi temporibus eaque explicabo doloremque quidem doloribus
-                tenetur nesciunt reiciendis possimus quisquam, architecto error
-                impedit minus magnam perferendis natus maiores ipsam.
-              </p>
-            </div>
+          <div class="timeline-date">2020</div>
+          <div class="timeline-content">
+            <h3>Escolar</h3>
+            <p>
+              Inícei meus estudos no Ensino Médio, onde desenvolvi curiosidade e
+              paixão por aprender coisas novas, principalmente nas áreas de
+              tecnologia e filosofia, que sempre me chamaram muita atenção.
+            </p>
+          </div>
         </div>
 
         <!-- Segundo item -->
         <div class="timeline-item">
           <div class="timeline-dot"></div>
-            <div class="timeline-date">2024</div>
-            <div class="timeline-content">
-              <h3>University</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-                animi temporibus eaque explicabo doloremque quidem doloribus
-                tenetur nesciunt reiciendis possimus quisquam, architecto error
-                impedit minus magnam perferendis natus maiores ipsam.
-              </p>
-            </div>
+          <div class="timeline-date">2021</div>
+          <div class="timeline-content">
+            <h3>Técnico em Jogos Digitais</h3>
+            <p>
+              Realizei o curso técnico e formação inicial de Jogos Digitais na
+              Fatec Carapícuiba, onde desenvolvi habilidades de Produção,
+              princípios e Programação de Jogos Digitais, utilizando linguagem
+              Python.
+            </p>
+          </div>
         </div>
 
         <!-- terceiro item -->
         <div class="timeline-item">
           <div class="timeline-dot"></div>
-            <div class="timeline-date">2024</div>
-            <div class="timeline-content">
-              <h3>University</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-                animi temporibus eaque explicabo doloremque quidem doloribus
-                tenetur nesciunt reiciendis possimus quisquam, architecto error
-                impedit minus magnam perferendis natus maiores ipsam.
-              </p>
-            </div>
+          <div class="timeline-date">2023</div>
+          <div class="timeline-content">
+            <h3>Técnico em Informática e ADM</h3>
+            <p>
+              Conclui o curso de Informática com Administração, onde pude
+              adquirir diversos conhecimentos do mundo técnologico e
+              administrativo, com ênfase em Pacote Office, Hardware, Gestão de
+              Pessoas, Administração e Marketing, consolidando diversos
+              conceitos novos.
+            </p>
+          </div>
         </div>
 
         <!-- quarto item -->
         <div class="timeline-item">
           <div class="timeline-dot"></div>
-            <div class="timeline-date">2024</div>
-            <div class="timeline-content">
-              <h3>University</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-                animi temporibus eaque explicabo doloremque quidem doloribus
-                tenetur nesciunt reiciendis possimus quisquam, architecto error
-                impedit minus magnam perferendis natus maiores ipsam.
-              </p>
-            </div>
+          <div class="timeline-date">2024-2027</div>
+          <div class="timeline-content">
+            <h3>Graduação em Design de Mídias Digitais</h3>
+            <p>
+              Adentrei na universidade para a graduação em Design de Mídias
+              Digitais, onde terei diversos novos desafios e oportunidades para
+              me desenvolver profissionalmente e pessoalmente, tendo em vista
+              cursar Análise e Desenvolvimento de Sistemas após o término deste.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="certificados" id="certificados">
+      <h2>Certificados</h2>
+      <div class="slider-wrapper">
+        <div class="slider">
+          <img
+            id="slide-1"
+            src="certificados/Fatec-Jogos-Digitais.jpg"
+            alt=""
+          />
+          <img id="slide-2" src="certificados/Corol-Company.jpg" alt="" />
+          <img id="slide-3" src="certificados/Santander.png" alt="" />
+          <img id="slide-4" src="certificados/Rihappy.jpg" alt="" />
+          <img id="slide-5" src="certificados/Python.png" alt="" />
+          <img id="slide-6" src="certificados/t10-dio.png" alt="" />
         </div>
 
+        <div class="slider-nav">
+          <a href="#slide-1"></a>
+          <a href="#slide-2"></a>
+          <a href="#slide-3"></a>
+          <a href="#slide-4"></a>
+          <a href="#slide-5"></a>
+          <a href="#slide-6"></a>
+        </div>
       </div>
     </section>
 
@@ -129,12 +200,16 @@
       <h2 class="heading">Serviços</h2>
 
       <div class="services-container">
-
         <!-- Serviço1 -->
         <div class="service-box">
           <div class="service-info">
             <h4>Programador</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae saepe odit pariatur neque error corporis vero inventore vitae impedit voluptatibus eligendi veritatis repudiandae aspernatur, cumque voluptates beatae fugiat. Omnis, rem.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
+              saepe odit pariatur neque error corporis vero inventore vitae
+              impedit voluptatibus eligendi veritatis repudiandae aspernatur,
+              cumque voluptates beatae fugiat. Omnis, rem.
+            </p>
           </div>
         </div>
 
@@ -142,7 +217,12 @@
         <div class="service-box">
           <div class="service-info">
             <h4>Front-End</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae saepe odit pariatur neque error corporis vero inventore vitae impedit voluptatibus eligendi veritatis repudiandae aspernatur, cumque voluptates beatae fugiat. Omnis, rem.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
+              saepe odit pariatur neque error corporis vero inventore vitae
+              impedit voluptatibus eligendi veritatis repudiandae aspernatur,
+              cumque voluptates beatae fugiat. Omnis, rem.
+            </p>
           </div>
         </div>
 
@@ -150,7 +230,12 @@
         <div class="service-box">
           <div class="service-info">
             <h4>Front-End</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae saepe odit pariatur neque error corporis vero inventore vitae impedit voluptatibus eligendi veritatis repudiandae aspernatur, cumque voluptates beatae fugiat. Omnis, rem.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
+              saepe odit pariatur neque error corporis vero inventore vitae
+              impedit voluptatibus eligendi veritatis repudiandae aspernatur,
+              cumque voluptates beatae fugiat. Omnis, rem.
+            </p>
           </div>
         </div>
 
@@ -158,13 +243,18 @@
         <div class="service-box">
           <div class="service-info">
             <h4>Front-End</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae saepe odit pariatur neque error corporis vero inventore vitae impedit voluptatibus eligendi veritatis repudiandae aspernatur, cumque voluptates beatae fugiat. Omnis, rem.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
+              saepe odit pariatur neque error corporis vero inventore vitae
+              impedit voluptatibus eligendi veritatis repudiandae aspernatur,
+              cumque voluptates beatae fugiat. Omnis, rem.
+            </p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Contato -->
+    <!-- Contato
 
     <section class="contact" id="contact">
       <h2 class="heading">Contato <span>Me</span></h2>
@@ -193,35 +283,43 @@
         </div>
       </form>
 
-    </section>
+    </section> -->
 
     <!-- Footer -->
-
-    <footer class="footer">
+    <footer class="footer" id="contato">
+      <h2>Contate-me</h2>
+      <p>
+        Estou disponível para serviços e novas conexões. Conecte-se comigo
+        através das minhas redes sociais.
+      </p>
       <div class="social">
-        <a href="#"><i class="bx bxl-linkedin"></i></a>
-          <a href="#"><i class="bx bxl-github"></i></a>
-          <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+        <a href="https://www.linkedin.com/in/kauesiqueiradev/" target="_blank"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="https://github.com/KaueSiqueira54" target="_blank"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a href="https://www.instagram.com/siqueira_dev54/#" target="_blank"
+          ><i class="bx bxl-instagram-alt"></i
+        ></a>
       </div>
 
       <ul class="list">
-
         <li>
-          <a href="">FAQ</a>
+          <a href="#home">Home</a>
         </li>
 
         <li>
-          <a href="">Services</a>
+          <a href="#education">Educação</a>
         </li>
 
         <li>
-          <a href="">About Me</a>
+          <a href="#certificados">Certificados</a>
         </li>
 
         <li>
-          <a href="">Contact</a>
+          <a href="#contato">Contato</a>
         </li>
-
       </ul>
 
       <p class="copyright">
@@ -230,5 +328,6 @@
     </footer>
 
     <script src="JS/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   </body>
 </html>
