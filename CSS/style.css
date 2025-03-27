@@ -25,15 +25,15 @@ h2 {
   --second-bg-color: #131313;
   --text-color: white;
   --main-color: #00ffee;
-  --secondary-bg-color: #c7c8c9;
+  --secondary-bg-color: #deffff;
 }
 
 :root[data-theme="light"] {
-  --bg-color: #f7f7f7;
-  --second-bg-color: #ffffff;
-  --text-color: #333333;
-  --main-color: #007acc;
-  --secondary-bg-color: #e0e0e0;
+  --bg-color: #5790ab;
+  --second-bg-color: #79acc0;
+  --text-color: #0d0d0d;
+  --main-color: #deffff;
+  --secondary-bg-color: #bce3ea;
 }
 
 /* Estilização da página toda */
@@ -577,7 +577,7 @@ span {
 }
 
 .service-box:hover {
-  background-color: #fff;
+  background-color: var(--secondary-bg-color);
   color: black;
   border: 5px solid var(--main-color);
   transform: scale(1.03);
