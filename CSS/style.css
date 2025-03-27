@@ -512,7 +512,7 @@ span {
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  box-shadow: 0 1.5rem 3rem 1rem var(--secondary-bg-color);
+  box-shadow: 0 1.5rem 3rem 1rem var(--main-color);
   border-radius: 0.5rem;
   scrollbar-width: none;
 }
@@ -538,9 +538,13 @@ span {
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
-  background-color: var(--secondary-bg-color);
+  background-color: var(--second-bg-color);
   opacity: 0.75;
   transition: opacity ease 250ms;
+}
+
+.slider-nav a.active {
+  background-color: var(--main-color);
 }
 
 .slider-nav a:hover {
