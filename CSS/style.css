@@ -564,16 +564,107 @@ span {
   color: var(--text-color);
 }
 
+.service-box {
+  border: 2px solid var(--main-color);
+  border-radius: 50px;
+  height: 950px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  place-items: center;
+}
+
+.service-box:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 25px var(--main-color);
+  cursor: pointer;
+}
+
+.project-title {
+  padding: 4rem;
+}
+
+.project-title h3{
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: var(--text-color);
+  border-bottom: 2px solid var(--main-color);
+}
+
+.image-project {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.image-project img {
+  width: 80%;
+  border-radius: 25px;
+}
+.items-project {
+  display: flex;
+  justify-content: space-between;
+}
+
+.items-project p {
+  padding: 2rem;
+  color: var(--text-color);
+  text-align: left;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+/* Itens dos projetos */
+
+.project-skils {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.skils {
+  padding-inline: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 10.5rem;
+  height: 10.5rem;
+  aspect-ratio: 1/1;
+  border: 1px solid var(--main-color);
+  border-radius: 50rem;
+}
+
+#btn2 {
+  padding-top: 3rem;
+}
+
+
+
+/* .services {
+  background-color: var(--bg-color);
+  color: black;
+}
+
+.services h2 {
+  margin-bottom: 5rem;
+  color: var(--text-color);
+}
+
 .services-container {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 2.5rem;
+  flex-direction: column;
 }
 
 .service-box {
   background-color: var(--main-color);
-  height: 300px;
+  height: 800px;
   border-radius: 3rem;
   border: 5px solid transparent;
   cursor: pointer;
@@ -587,13 +678,13 @@ span {
   transform: scale(1.03);
 }
 
-.service-box img {
+.service-info img {
   width: 50%;
 }
 
 .service-box .service-info {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   text-align: left;
   max-height: 200px;
   justify-content: left;
@@ -613,7 +704,7 @@ span {
   max-height: 100px;
   line-height: 1.7;
   margin: auto;
-}
+} */
 
 /* Contato */
 
