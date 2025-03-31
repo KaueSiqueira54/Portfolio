@@ -941,6 +941,10 @@ span {
   .home-img img {
     width: 100%;
   }
+
+  .service-box {
+    height: 700px;
+  }
 }
 
 /* 600px */
@@ -991,6 +995,14 @@ span {
   section {
     min-height: 20vh;
   }
+
+  .services-container {
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 500px) {
@@ -1008,5 +1020,35 @@ span {
   .skils {
     width: 8rem;
     height: 8rem;
+  }
+
+  .service-box {
+    height: 520px;
+  }
+
+  .services-container {
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+  }
+}
+
+@media(max-width: 400px) {
+  .certificados {
+    display: none;
+  }
+
+  .service-box {
+    height: 500px;
+  }
+
+  .services-container {
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
   }
 }

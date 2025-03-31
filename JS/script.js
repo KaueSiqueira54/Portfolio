@@ -128,7 +128,7 @@ if (isTouchDevice) {
     if (!isDown) return;
     e.preventDefault();
     const x = e.pageX - slider.offsetLeft;
-    const walk = (x - startX) * 3; // Ajusta a sensibilidade
+    const walk = (x - startX) * 1; // Ajusta a sensibilidade
     slider.scrollLeft = scrollLeft - walk;
   });
 }
