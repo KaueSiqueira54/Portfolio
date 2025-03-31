@@ -105,7 +105,7 @@ body {
 /* Section */
 
 section {
-  min-height: 100vh;
+  min-height: 80vh;
   padding: 10rem 12% 10rem;
 }
 
@@ -244,6 +244,7 @@ span {
   font-size: 34px;
   font-weight: 600;
   min-width: 280px;
+  padding-bottom: 3rem;
 }
 
 .text-animation span {
@@ -446,6 +447,7 @@ span {
 .imagem-logo img {
   padding-top: none;
   width: 70%;
+  border-radius: 50px;
 }
 
 .skills {
@@ -463,6 +465,7 @@ span {
   padding-inline: 6rem;
   text-transform: none;
   font-size: 4rem;
+  text-align: center;
 }
 
 .skills__list {
@@ -611,7 +614,7 @@ span {
 .items-project p {
   padding: 2rem;
   color: var(--text-color);
-  text-align: left;
+  text-align: center;
   font-size: 2rem;
   text-transform: uppercase;
 }
@@ -641,70 +644,6 @@ span {
 #btn2 {
   padding-top: 3rem;
 }
-
-
-
-/* .services {
-  background-color: var(--bg-color);
-  color: black;
-}
-
-.services h2 {
-  margin-bottom: 5rem;
-  color: var(--text-color);
-}
-
-.services-container {
-  display: flex;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-  gap: 2.5rem;
-  flex-direction: column;
-}
-
-.service-box {
-  background-color: var(--main-color);
-  height: 800px;
-  border-radius: 3rem;
-  border: 5px solid transparent;
-  cursor: pointer;
-  transition: 0.45 ease-in-out;
-}
-
-.service-box:hover {
-  background-color: var(--secondary-bg-color);
-  color: black;
-  border: 5px solid var(--main-color);
-  transform: scale(1.03);
-}
-
-.service-info img {
-  width: 50%;
-}
-
-.service-box .service-info {
-  display: flex;
-  flex-direction: row;
-  text-align: left;
-  max-height: 200px;
-  justify-content: left;
-  align-items: baseline;
-  padding: 5rem 5rem;
-}
-
-.service-info h4 {
-  font-size: 3rem;
-  font-weight: 800;
-  line-height: 2;
-}
-
-.service-info p {
-  font-size: 1.6rem;
-  font-weight: 600;
-  max-height: 100px;
-  line-height: 1.7;
-  margin: auto;
-} */
 
 /* Contato */
 
@@ -836,13 +775,21 @@ span {
 
 @media (max-width: 1285px) {
   html {
-    font-size: 55%;
+    font-size: 50%;
   }
 
   .services-container {
     padding-bottom: 7rem;
     grid-template-columns: repeat(2, 1fr);
     margin: 0 5rem;
+  }
+
+  .service-box {
+    height: 800px;
+  }
+
+  section {
+    min-height: 30vh;
   }
 }
 
@@ -855,6 +802,7 @@ span {
 
   section {
     padding: 18rem;
+    min-height: 50vh;
   }
 
   .home-img img {
@@ -883,6 +831,23 @@ span {
     padding-bottom: 7rem;
   }
 
+  .slider-wrapper {
+    max-width: 90%;
+  }
+
+  .slider-nav a {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .services {
+    padding: 3rem;
+  }
+
+  .service-box {
+    height: 750px;
+  }
+
   .contact form {
     flex-direction: column;
   }
@@ -899,11 +864,19 @@ span {
     display: block;
   }
 
+  section {
+    min-height: 30vh;
+  }
+
+  .home {
+    padding-inline: 1rem;
+  }
+
   .navbar {
     position: absolute;
     top: 100%;
     right: 0;
-    width: 40%;
+    width: 30%;
     padding: 1rem 3%;
     background: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(20px);
@@ -969,3 +942,49 @@ span {
     width: 100%;
   }
 }
+
+/* 768px */
+
+@media (max-width: 768px) {
+  .home-content {
+    width: 100%;
+  }
+
+  .imagem-logo img {
+    width: 100%;
+  }
+
+  .skills__list {
+    width: 40%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .skills__item {
+    width: 40%;
+    height: 40%;
+  }
+
+  .slider-wrapper {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .slider-nav a {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .service-box {
+    height: 600px;
+  }
+
+  section {
+    min-height: 20vh;
+  }
+}
+
+
+
