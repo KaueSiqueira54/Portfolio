@@ -961,7 +961,7 @@ span {
     font-size: 6rem;
   }
 
-  .skills__list {
+  .skills__list{
     width: 40%;
     justify-content: center;
     align-content: center;
@@ -969,7 +969,7 @@ span {
     margin: 0 auto;
   }
 
-  .skills__item {
+  .skills__item{
     width: 40%;
     height: 40%;
   }
@@ -994,14 +994,19 @@ span {
 }
 
 @media (max-width: 500px) {
-  /* .header {
-    width: 70%;
-  } */
-
   .certificados h2,
   .education h2,
   .services h2,
   .footer h2 {
     font-size: 5rem;
+  }
+
+  .project-skils {
+    width: 40%;
+  }
+
+  .skils {
+    width: 8rem;
+    height: 8rem;
   }
 }
