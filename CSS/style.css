@@ -562,20 +562,28 @@ span {
   color: black;
 }
 
+.services-container {
+  display: flex;
+  gap: 5rem;
+}
+
 .services h2 {
   margin-bottom: 5rem;
   color: var(--text-color);
 }
 
 .service-box {
+  width: 60%;
   border: 2px solid var(--main-color);
   border-radius: 50px;
-  height: 950px;
+  height: auto;
   display: block;
   justify-content: center;
   align-items: center;
   justify-items: center;
   place-items: center;
+  margin: 0 auto;
+  padding-bottom: 2rem;
 }
 
 .service-box:hover {
@@ -585,6 +593,7 @@ span {
 }
 
 .project-title {
+  text-align: center;
   padding: 4rem;
 }
 
@@ -763,6 +772,7 @@ span {
 }
 
 .footer .copyright {
+  text-transform: uppercase;
   margin-top: 50px;
   text-align: center;
   font-size: 16px;
@@ -785,7 +795,8 @@ span {
   }
 
   .service-box {
-    height: 800px;
+    width: 90%;
+    height: 70rem;
   }
 
   section {
@@ -845,7 +856,8 @@ span {
   }
 
   .service-box {
-    height: 750px;
+    width: 90%;
+    height: 70rem;
   }
 
   .contact form {
@@ -933,6 +945,8 @@ span {
   }
 }
 
+/* 830px */
+
 @media (max-width: 830px) {
   .home-img {
     align-items: center;
@@ -942,8 +956,14 @@ span {
     width: 100%;
   }
 
+  .services-container {
+    display: block;
+  }
+
   .service-box {
-    height: 700px;
+    width: 80%;
+    height: 72rem;
+    margin-bottom: 5rem;
   }
 }
 
@@ -989,7 +1009,9 @@ span {
   }
 
   .service-box {
-    height: 600px;
+    width: 80%;
+    height: 70rem;
+    margin-bottom: 5rem;
   }
 
   section {
@@ -1002,8 +1024,11 @@ span {
     align-items: center;
     justify-items: center;
     margin: 0 auto;
+    display: block;
   }
 }
+
+/* 500px */
 
 @media (max-width: 500px) {
   .certificados h2,
@@ -1023,6 +1048,7 @@ span {
   }
 
   .service-box {
+    width: 90%;
     height: 520px;
   }
 
