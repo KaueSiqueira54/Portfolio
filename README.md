@@ -9,12 +9,6 @@ Este é meu portfólio pessoal, desenvolvido com **HTML**, **CSS** e **JavaScrip
 
 ---
 
-## 📸 Preview do Projeto
-
-![Preview do Portfólio](assets/preview.png)
-
----
-
 ## 🚀 Tecnologias Utilizadas
 
 - HTML5  
@@ -28,13 +22,5 @@ Este é meu portfólio pessoal, desenvolvido com **HTML**, **CSS** e **JavaScrip
 - Página inicial com apresentação pessoal  
 - Seção de projetos com links e descrições  
 - Seção de habilidades técnicas  
-- Formulário de contato (se implementado)  
 - Design responsivo para dispositivos móveis e desktop
-
 ---
-
-## 🧭 Como executar localmente
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/KaueSiqueira54/Portfolio.git
