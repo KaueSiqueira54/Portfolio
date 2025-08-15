@@ -563,6 +563,7 @@ span {
 }
 
 .services-container {
+  padding: 1rem;
   display: flex;
   gap: 5rem;
 }
@@ -588,6 +589,7 @@ span {
 
 .service-box:hover {
   transform: scale(1.01);
+  transition: 0.3s ease-in-out;
   box-shadow: 0 0 25px var(--main-color);
   cursor: pointer;
 }
@@ -985,7 +987,7 @@ span {
     font-size: 6rem;
   }
 
-  .skills__list{
+  .skills__list {
     width: 40%;
     justify-content: center;
     align-content: center;
@@ -993,7 +995,7 @@ span {
     margin: 0 auto;
   }
 
-  .skills__item{
+  .skills__item {
     width: 40%;
     height: 40%;
   }
@@ -1061,7 +1063,7 @@ span {
   }
 }
 
-@media(max-width: 400px) {
+@media (max-width: 400px) {
   .certificados {
     display: none;
   }
