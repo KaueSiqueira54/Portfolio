@@ -493,12 +493,12 @@ span {
   border-radius: 50rem;
 }
 
-.skil-logo {
-  width: 100%;
-}
+/* ── Devicons: tamanho nos itens de skill e projeto ── */
 
-.skills__logo {
-  height: 5.4rem;
+.skills__item i,
+.skils i {
+  font-size: 4rem;
+  line-height: 1;
 }
 
 /* Certificados Cel */
@@ -1049,11 +1049,6 @@ span {
     gap: 1.5rem;
   }
 
-  .skills__item {
-    width: 40%;
-    height: 60%;
-  }
-
   .slider-wrapper {
     max-width: 100%;
     max-height: 100%;
@@ -1105,6 +1100,12 @@ span {
   .skils {
     width: 8rem;
     height: 8rem;
+  }
+
+  /* Reduz ícone em telas menores */
+  .skills__item i,
+  .skils i {
+    font-size: 3rem;
   }
 
   .service-box {
